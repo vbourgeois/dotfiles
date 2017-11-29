@@ -1,0 +1,33 @@
+[user]
+	name = BOURGEOIS, Vincent (ext.)
+	email = vincent.bourgeois.prestataire@sfr.com
+[credential]
+	helper = store
+[merge]
+	tool = meld
+[diff]
+	guitool = meld
+[core]
+	excludesfile = /home/vincent/git/.gitignore
+[alias]
+	co = checkout
+	cob = checkout -b
+	c = commit
+	cam = commit -a -m
+	s = status
+	b = branch
+	p = pull
+	poh = push origin HEAD
+	d = diff
+	l = log --pretty=oneline
+	lo = log --graph --format=format:"%C(yellow)%h%C(bold\\ green)%d%C(reset)\\ %s\\ %C(magenta)%ar\\ %C(blue)%an"
+	la = "!git lo --all"
+	r = reset
+	rh = reset --hard	
+	a = add 
+	aa = add -A
+	m = merge
+	mt= mergetool
+	bourrin = "!retry() { until $(git $1); do sleep 1; echo "Retrying"; done; }; retry"
+[mergetool]
+	keepBackup = false
