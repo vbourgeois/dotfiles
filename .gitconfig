@@ -1,6 +1,6 @@
 [user]
-	name = BOURGEOIS, Vincent (ext.)
-	email = vincent.bourgeois.prestataire@sfr.com
+	name = BOURGEOIS Vincent
+	email = vct.bourgeois@gmail.com
 [credential]
 	helper = store
 [merge]
@@ -28,6 +28,6 @@
 	aa = add -A
 	m = merge
 	mt= mergetool
-	bourrin = "!retry() { until $(git $1); do sleep 1; echo "Retrying"; done; }; retry"
+	t= tag
 [mergetool]
 	keepBackup = false
