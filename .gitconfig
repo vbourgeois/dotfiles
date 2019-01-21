@@ -17,6 +17,7 @@
 	s = status
 	b = branch
 	p = pull
+	po = push origin
 	poh = push origin HEAD
 	d = diff
 	l = log --pretty=oneline
