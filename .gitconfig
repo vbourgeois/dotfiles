@@ -13,6 +13,7 @@
 	co = checkout
 	cob = checkout -b
 	c = commit
+	cf=commit -a --fixup
 	cam = commit -a -m
 	s = status
 	b = branch
@@ -24,11 +25,13 @@
 	lo = log --graph --format=format:"%C(yellow)%h%C(bold\\ green)%d%C(reset)\\ %s\\ %C(magenta)%ar\\ %C(blue)%an"
 	la = "!git lo --all"
 	r = reset
+	undo = reset HEAD~1 --mixed
 	rh = reset --hard	
 	a = add 
 	aa = add -A
 	m = merge
 	mt= mergetool
 	t= tag
+	rb=rebase --interactive --autosquash
 [mergetool]
 	keepBackup = false
