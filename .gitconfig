@@ -9,6 +9,7 @@
 	guitool = meld
 [core]
 	excludesfile = /home/vincent/git/.gitignore
+        editor = vim
 [alias]
 	co = checkout
 	cob = checkout -b
