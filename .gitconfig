@@ -8,7 +8,7 @@
 [diff]
         guitool = meld
 [core]
-        excludesfile = /home/vincent/git/.gitignore
+        excludesfile = /home/vincent/.git/.gitignore
         editor = vim
         longpaths = true
 [alias]
